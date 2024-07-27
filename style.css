@@ -1,0 +1,987 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: Inter, sans-serif;
+    background-color: #F5F4F2;
+}
+
+.Main-Container{
+    width: 100%;
+    background-color: #f5f4f2;
+}
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 15px 0px;
+    background-color:#f5f4f2;
+    position: fixed;
+    z-index: 9999999;
+    top: 0;
+}
+
+.Container{
+    padding-left: 30px;
+    padding-right: 50px;
+
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgb(130, 127, 127);
+    font-size: 15px;
+}
+.Button{
+    padding: 10px 20px;
+    background-color: #F77C58;
+    color: white;
+    border-radius: 2px;
+    padding: 14px 20px;
+    font-size: 16px;
+    box-shadow: inset 0 0 0 1px #edebe8;
+    border: none;
+}
+.menu-btn{
+    display: none;
+}
+                /* Hero Section  */
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 77px;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+   
+   
+    /* background-color: red; */
+}
+.hero-left-title{
+    font-family: "Lora", serif;
+    font-size: 60px;
+    font-weight: 300;
+
+}
+.hero-left-desc{
+        color: #656170;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+.hero-right{
+    width: 50%;
+    /* background-color: blue; */
+}
+.hero-right-img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    vertical-align: middle;
+    
+}
+.button-container{
+    display: flex;
+    gap: 20px;
+}
+.button{
+    padding: 15px 30px;
+    background-color: #F77C58;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.bg-white-button{
+    background-color: white;
+    color: black;
+    border: 1px solid lightgray;
+}
+.about-container{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 70px;  
+}
+.about{
+    width: 50%;
+}
+.about-word{
+    font-size: 45px;
+    font-weight: 300;
+}
+.about-sentense{
+    width: 80%;
+    color: rgb(130, 127, 127);
+    font-size:20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.number-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top:1px solid #F77C58;
+    border-bottom: 1px solid #F77C58;
+    padding: 60px 0px;
+    /* margin-left: 30px; */
+    /* margin-right: 30px; */
+}
+.properties{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.number{
+    font-size: 40px;
+    font-weight: 300;
+}
+.service-container{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.service{
+    font-size: 40px;
+    font-weight: 300;
+}
+.Icon-text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+       
+        
+}
+.text{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: "Lora", serif;
+}
+.Flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    
+}
+.para-Height{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #656170;
+    letter-spacing: 0.8px;
+}
+.full-IMG{
+        width: 100%;
+        padding: 60px 0px;
+}
+.APP-Client-Container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.APP-Container{
+    width:55%;
+    
+}
+.Client-Container{
+   display: flex;
+   justify-content: space-evenly;
+}
+.IMG-Client{
+    
+}
+.client-font{
+    font-size: 44px;
+    font-weight:300;
+    margin-bottom: 60px;
+
+}
+.CLI{
+    width: 300px;
+    height: 400px;
+    border-radius: 4px;
+}
+.client-para{
+    font-size: 20px;
+    padding-right: 40px;
+    font-weight: 200;
+    text-align: left;
+    line-height: 1.2;
+    margin: 20px 0px;
+}
+.Short{
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.Short-date{
+    font-size: 10px;
+    color: #656170;
+}
+.arrow-container{
+    display: flex;
+    margin-top: 80px;
+    gap: 10px;
+}
+.circle{
+    border: 1px solid lightgray;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center ;
+    cursor: pointer;
+}
+.circle:hover{
+        background-color: lightgray;
+        transition: all 0.1s linear ;
+}
+
+.text-home-container{
+    display: flex;
+    width: 100%;
+    
+}
+.left-Box{
+    width: 50%;
+    background-color: #F77C58;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 60px 40px;
+    color: white;
+    
+}
+.ready{
+    font-size: 50px;
+    font-weight: 300;
+    width: 90%;
+}
+.contact{
+    font-size: 15px;
+    font-weight: 300;
+    width: 70%;
+}
+.call-button{
+    padding: 12px;
+    width: 30%;
+    font-weight: 800;
+}
+.call-button:hover{
+    background-color: #f16a41;
+    border: .5px solid gray;
+    border-radius: 2px;
+}
+.Right-Home{
+    width: 50%;   
+}
+.IMG-size{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.pro-img-main{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.pro-img-container{
+            width: 30%;         
+}
+.propertie{
+    padding-left: 30px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 40px;
+
+}
+
+                    /* properties & four image */
+
+.property-section{
+        width: 100%;
+        margin-top: 100px;
+}
+.property-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+}
+.property-left{
+    width: 50%;
+    
+}
+.property{
+    font-size: 40px;
+    font-weight: 300;
+}
+.property-right{
+        width: 61%;
+        
+}
+.room-card-container{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 30px;   
+}
+.room-card{
+    width: 100%;
+}
+
+.room-card-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.info-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.room-card-img-container{
+                position: relative;
+                cursor: pointer;
+                        
+}
+.overlay{
+    width: 100%;
+    height: 98.3%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    opacity: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: all 0.2s linear;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+.overlay:hover{
+    opacity: 100;
+}
+
+.room-name{
+        font-size: 20px;
+        font-weight: 300;
+}
+.room-info-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    color: #656170;
+    font-size: 10px;
+}
+.room-info-left,.room-info-right{
+    display: flex;
+    align-items: center;
+}
+.price{
+    color: #656170;
+    
+
+}
+.right-button-container{
+            margin-top: 40px;
+            margin-bottom: 100px;
+
+}
+.right-button{
+        width: 100%;
+        padding: 15px 0px;
+        background-color: white;
+        border: 1px solid lightgray;
+        font-size: 17px;
+        font-weight: 300;
+        cursor: pointer;
+        transition: all .2s linear;
+}
+.right-button:hover{
+        background-color:#ECEAE8;
+}
+/* Second Text & Home page  */
+
+
+.text-home-container2{
+    display: flex;
+    width: 100%;
+}
+.left-Box2{
+    width: 50%;
+    background-color: #F77C58;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 80px 0px 0px 30px;
+}
+.ready2{
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 300;
+    width: 90%;
+    margin-bottom: 30px;
+    
+}
+.contact2{
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    color: lightgray;
+}
+.call-button2{
+    padding: 12px;
+    width: 30%;
+}
+.call-button2:hover{
+    background-color: #f16a41;
+    border: .5px solid gray;
+    border-radius: 2px;
+}
+.Right-Home2{
+    width: 50%;   
+}
+.IMG-size2{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+/* More & Two IMG */
+.More-two-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    background-color: #F5F4F2;
+    padding-bottom: 70px;
+    
+}
+.More-info{
+    width: 40%;
+
+}
+.More-size{
+    font-size: 40px;
+    font-weight: 300;
+    
+}
+.two-img-container{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    
+}
+
+.two-of-1{
+    width: 350px;
+}
+.two-of-2{
+    width: 350px;
+}
+.learn-arrow{
+    display: flex;
+    align-items: center;
+    
+}
+.learn-font-size{
+    font-size: 10px;
+}
+/* Frequently asked questions */
+.requ-list-container{
+        display: flex;
+        justify-content: space-between;    
+        border-top: 1px solid #f16a41;
+        padding-top: 80px;
+        background-color: #F5F4F2;
+}
+.left-freq{
+    width: 30%;
+    
+}
+.left-freq-font{
+    font-size: 40px;
+    font-weight: 300;
+    
+}
+.rignt-list-container{
+    width: 70%;     
+}
+
+.right-list{
+    border-top: 1px solid lightgray; 
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+}
+.right-list-font{
+    font-size: 17px;
+    font-weight: 300;
+}
+.right-list-final{
+        border-top: 1px solid lightgray; 
+        border-bottom: 1px solid lightgray; 
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-bottom: 30px;
+}
+/* <!-- READY TO FIND YOUR DREAM HOME --> */
+
+.dream-home-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F5F4F2;
+}
+
+.dream-font{
+    font-size: 50px;
+    font-weight: 300;
+}
+.dream-button-main{
+            margin-top: 30px;
+}
+.dream-button{
+    padding:15px 50px;
+    background-color: #F77C58;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.dream-button:hover{
+    background-color: lightsalmon;
+   
+}
+/* Footer */
+.footer-container{
+            width: 100%;
+            background-color: #EBEAE6;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid lightgray;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 30px;
+           padding-bottom: 30px;
+            
+}
+
+.footer-left{
+            width: 40%;
+           
+            
+}
+.footer-left-font{
+            font-size: 16px;
+            font-weight: 300;
+            margin-bottom: 30px;
+}
+.footer-input-container{
+                width: 60%;
+            
+}
+
+.footer-input{
+                width: 100%;
+                height: 100%;
+                border: none;
+                color: #312e41;
+                background-color: rgba(0, 0, 0, 0);
+                border-bottom: 1px solid black;
+
+}
+.footer-input:focus{
+        outline: none;
+}
+
+.footer-left-button{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                
+}
+          /* footer-right-container */
+.footer-right-container{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 35px 35px 35px 35px; 
+    
+    
+}
+.footer-right-grib{
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                font-weight: 300;
+                color: #656170;
+                cursor: pointer;
+}
+.footer-right-grib:hover{
+                color: black;
+}
+.footer-right-flex{
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+}
+            /* Footer LOGO */
+
+.footer-logo-container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+            background-color: #EBEAE6;
+            border-top: 1px solid lightgray;
+            border-bottom: 1px solid lightgray;
+        
+}
+                /* last footer */
+
+.footer-last-container{
+    width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 30px;
+            background-color: #EBEAE6;
+}
+.last-footer-left{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 14px;
+        font-weight: 300;
+        color: #656170;
+}
+.last-footer-right{
+    font-size: 14px;
+    font-weight: 300;
+    color: #656170;
+}
+@media (max-width: 768px) {
+    
+    .Main-Container{
+        width: 100%;
+        
+    }
+
+    .nav-container{
+        width: 100%;
+    }
+    
+    .Container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .hero-section{
+            flex-direction: column;
+            width: 100%;
+            margin-top: 40px;
+    }
+    .hero-left{
+            align-items: center;
+            width: 100%;
+            padding: 80px 0px;
+            
+    }
+    .hero-left-title{
+        text-align: center;
+            font-size: 38px;
+            width: 70%;
+           
+    }
+    .hero-right{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .property-container{
+        flex-direction: column;
+    }
+    .property-right{
+        width: 100%;
+    }
+    .room-card-container{
+        width: 100%;
+        grid-template-columns: 48% 48%;
+    }
+    .room-card-img {
+        width: 100%;
+        border-radius: 5px;
+    
+    }
+    .Flex{
+        gap:16px;
+    }
+    .text-home-container2{
+        width: 100%;
+    }
+
+    .More-two-img {
+        flex-direction: column;
+    }
+    .two-img-container{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .arrow-container{
+        margin-top: 30px;
+    }
+    .client-font{
+        margin-bottom: 20px;
+    }
+    .last-footer-left {
+        width: 45%;
+}
+.footer-right-container{
+    grid-template-columns: 150px 150px;
+}
+}
+
+@media (max-width: 425px) {
+   
+    .Main-Container{
+        width: 100%;
+        
+    }
+
+    .nav-container{
+        width: 100%;
+    }
+    .nav-link{
+        display: none;
+    }
+    .nav-button{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .Container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .hero-left-title{
+        text-align: center;
+            font-size: 38px;
+            width: 100%;
+    }
+    .button-container{
+        flex-direction: column;
+    }
+    .hero-right-img{
+            object-fit: cover;
+            height: auto;
+    }
+    .about-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .about-sentense{
+        width: 100%;
+    }
+    .number-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .dream-home-container{
+        width:100%;
+    }
+    .service-container{
+        
+    }
+    .Flex{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .Client-Container{
+        flex-direction: column;
+    }
+    .APP-Container{
+        width: 100%;
+    }
+    .arrow-container{
+        margin-top: 15px;
+    }
+    .text-home-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .left-Box{
+        width: 100%;
+        padding: 30px 10px;
+        gap: 20px;
+    }
+    .Right-Home {
+        width: 100%;
+    }
+    .ready{
+        width: 100%;
+       font-size: 30px;
+    }
+    .contact{
+        font-size: 17px;
+        width: 100%;
+    }
+    .room-card-container{
+        grid-template-columns: 404px;
+    }
+    
+
+    .room-card-img{
+        width: 100%;
+    }
+    .section{
+        flex-direction: column;
+    }
+    .More-two-img {
+        width: 100%;
+    }
+    .two-img-container{
+        flex-direction: column;
+        gap: 30px;
+        width: 84%;
+    }
+    .requ-list-container{
+        flex-direction: column;
+        padding-top: 60px;
+        width: 100%;
+    }
+    .rignt-list-container{
+        padding-top: 30px;
+        width: 100%;
+    }
+    .left-freq{
+        width: 100%;
+    }
+    .left-freq-font{
+        font-size: 32px;
+    }
+    .dream-font{
+        font-size: 30px;
+        text-align: center;
+    }
+    .footer-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+.footer-left{
+    width: 100%;
+}
+.footer-left-button{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-input-container{
+    width: 100%;
+
+}
+
+.dream-button{
+    width: 100%;
+}
+.footer-logo-container{
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+.footer-last-container{
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.last-footer-left{
+    justify-content: space-between;
+    width: 100%;
+}
+.footer-right-flex{
+    margin-top: 30px;
+    width: 100%;
+    justify-content: flex-start;
+}
+.footer-right-container{
+    grid-template-columns: 100px;
+    grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px;
+}
+.text-home-container2{
+    flex-direction: column;
+    width: 100%;
+}
+
+    }
+    /* Responsive 375 */
+
+    @media (max-width:375px){
+
+        
+        .Container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .hero-right{
+            padding: 0px 10px;
+        }
+        .hero-left-desc{
+            font-size: 20px;
+            font-weight: 300;
+        }
+        .text-home-container{
+            width: 100%;
+        }
+        .room-card-img{
+            width: 360px;
+        }
+        .room-card-container{
+            grid-template-columns: 360px;
+        }
+       
+    }
+    @media (max-width:1024px){
+        .hero-right-img{
+            width: 100%;
+            height: 420px;
+        }
+
+        .property-right{
+            width: 100%;
+        }
+    }
+
+    
+       
